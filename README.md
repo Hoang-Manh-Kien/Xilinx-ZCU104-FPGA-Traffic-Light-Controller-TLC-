@@ -56,7 +56,7 @@ The traffic lights will cycle through RED (9s), GREEN (6s), and YELLOW (3s) with
 
 ![Implemented Design and Timing](SynthesisUlt.png)
 
-![Synthesized Design Layout](UtilizationSummary2.png)
+![Synthesized Design Layout](IMG_9824.png)
 
 ## Resource Utilization and Performance
 - LUTs used: 38 (0.02%)
