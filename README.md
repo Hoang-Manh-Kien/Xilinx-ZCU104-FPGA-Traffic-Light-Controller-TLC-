@@ -4,23 +4,21 @@ This project implements a Traffic Light Controller (TLC) on the Xilinx ZCU104 FP
 
 ![Resource Utilization Summary](UtilizationSummary.png)
 
-![Timing Summary](./path/to/Max_Frequency.png)
+![Timing Summary](Max_Frequency.png)
 
-![Implemented Design and Timing](./path/to/SynthesisUlt.png)
+![Implemented Design and Timing](SynthesisUlt.png)
 
-![Synthesized Design Layout](./path/to/UtilizationSummary2.png)
+![Synthesized Design Layout](UtilizationSummary2.png)
 
-![Waveform Simulation](./path/to/waveform.png)
+![Waveform Simulation](waveform.png)
 
-![7-Segment Display Truth Table](./path/to/7-segment display.png)
+![7 Segment Display Truth Table](7-segment display.png)
 
-![Expected WaveDrom](./path/to/expected wavedrom.png)
+![FSM Diagram](FSM TLC.png)
 
-![FSM Diagram](./path/to/FSM TLC.png)
+![State Output Table](State Output.png)
 
-![State Output Table](./path/to/State Output.png)
-
-![State Transition Table](./path/to/State Transition.png)
+![State Transition Table](State Transition.png)
 
 
 ## Features
