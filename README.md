@@ -2,23 +2,14 @@
 ## Overview
 This project implements a Traffic Light Controller (TLC) on the Xilinx ZCU104 FPGA development board using Verilog HDL. The controller cycles through RED, GREEN, and YELLOW lights with configurable timing and includes a dynamic countdown timer displayed on a seven-segment LED. Additional features include blinking lights during the last few seconds of RED and GREEN states for better visual alerts.
 
-![Resource Utilization Summary](UtilizationSummary.png)
 
-![Timing Summary](Max_Frequency.png)
+![7 Segment Display Truth Table](7-segment-display.png)
 
-![Implemented Design and Timing](SynthesisUlt.png)
+![FSM Diagram](FSMTLC.png)
 
-![Synthesized Design Layout](UtilizationSummary2.png)
+![State Output Table](State-Output.png)
 
-![Waveform Simulation](waveform.png)
-
-![7 Segment Display Truth Table](7-segment display.png)
-
-![FSM Diagram](FSM TLC.png)
-
-![State Output Table](State Output.png)
-
-![State Transition Table](State Transition.png)
+![State Transition Table](State-Transition.png)
 
 
 ## Features
@@ -56,6 +47,16 @@ The traffic lights will cycle through RED (9s), GREEN (6s), and YELLOW (3s) with
 - The default clock divider parameter (CLKDIV1S) is set for simulation speed and results in very fast timer ticks (~8µs). To observe a human-visible countdown on hardware, adjust this parameter to scale timer ticks to 1 second (e.g., 125,000,000 - 1 for a 125 MHz clock).
 - Ensure pin assignments and constraints (XDC file) match your hardware setup.
 - Input debouncing may be required for physical switches (start, reset).
+
+![Waveform Simulation](waveform.png)
+
+![Resource Utilization Summary](UtilizationSummary.png)
+
+![Timing Summary](Max_Frequency.png)
+
+![Implemented Design and Timing](SynthesisUlt.png)
+
+![Synthesized Design Layout](UtilizationSummary2.png)
 
 ## Resource Utilization and Performance
 - LUTs used: 38 (0.02%)
