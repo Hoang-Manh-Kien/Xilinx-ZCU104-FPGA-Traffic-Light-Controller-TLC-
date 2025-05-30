@@ -2,10 +2,25 @@
 ## Overview
 This project implements a Traffic Light Controller (TLC) on the Xilinx ZCU104 FPGA development board using Verilog HDL. The controller cycles through RED, GREEN, and YELLOW lights with configurable timing and includes a dynamic countdown timer displayed on a seven-segment LED. Additional features include blinking lights during the last few seconds of RED and GREEN states for better visual alerts.
 
-![Traffic Light Controller](images/traffic_light.png)
-![Traffic Light Controller](images/traffic_light.png)
+![Resource Utilization Summary](UtilizationSummary.png)
 
-![Traffic Light Controller](images/traffic_light.png)
+![Timing Summary](./path/to/Max_Frequency.png)
+
+![Implemented Design and Timing](./path/to/SynthesisUlt.png)
+
+![Synthesized Design Layout](./path/to/UtilizationSummary2.png)
+
+![Waveform Simulation](./path/to/waveform.png)
+
+![7-Segment Display Truth Table](./path/to/7-segment display.png)
+
+![Expected WaveDrom](./path/to/expected wavedrom.png)
+
+![FSM Diagram](./path/to/FSM TLC.png)
+
+![State Output Table](./path/to/State Output.png)
+
+![State Transition Table](./path/to/State Transition.png)
 
 
 ## Features
